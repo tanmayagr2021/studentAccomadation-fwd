@@ -4,11 +4,19 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+// const firebaseConfig = {
+//   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+//   authDomain: "studentaboard-7d49b.firebaseapp.com",
+//   projectId: "studentaboard-7d49b",
+//   storageBucket: "studentaboard-7d49b.firebasestorage.app",
+//   messagingSenderId: "157954053728",
+//   appId: "1:157954053728:web:34187ed2b12bebcd34d505"
+// };
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "studentaboard-7d49b.firebaseapp.com",
   projectId: "studentaboard-7d49b",
-  storageBucket: "studentaboard-7d49b.firebasestorage.app",
+  storageBucket: "studentaboard-7d49b.appspot.com", // Correct storage bucket
   messagingSenderId: "157954053728",
   appId: "1:157954053728:web:34187ed2b12bebcd34d505"
 };
